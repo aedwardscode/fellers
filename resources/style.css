@@ -1,0 +1,223 @@
+* {
+    font-family: Nunito Sans;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    max-width: 2000px;
+    position: relative;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+header {
+    position: fixed;
+    font-size: 1.5rem;
+    height: 70px;
+    background-color: peachpuff;
+    z-index: 100;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.top {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.topnav {
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+header nav {
+    justify-items: end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a, .title a {
+    color: #635c5c;
+    text-decoration: none;
+}
+
+.title a {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+
+header nav li {
+    padding-left: 3.5rem;
+    justify-items: end;
+}
+
+.banner {
+    margin-top: 10rem;
+    padding-left: 7.5rem;
+    justify-content: center;
+    width: 100%;
+    z-index: 20;
+}
+
+.message {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.greeting {
+    flex-wrap: wrap;
+    padding-top: 100px;
+    width: 50%;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.imageone {
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    max-width: 120%;
+    height: auto;
+    padding-top: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    align-items: space-evenly;
+    padding: 20px 20px;
+}
+
+img {
+    max-width: 300px;
+}
+
+.enroll {
+    font-size: 2rem;
+    background-color: antiquewhite;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5rem;
+}
+
+.one {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.75rem;
+}
+
+.templates {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerA {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        height: 100px;
+        width: 100%;
+    }
+    .top {
+        width: 100%;
+        height: auto;
+        padding-bottom: 300px;
+        padding-top: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .title {
+        width: 20%;
+    }
+    .topnav {
+        width: 70%;
+        padding: 0px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0px;
+    }
+    li.nav {
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+    .message {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .greeting {
+        width: 100%;
+        padding: 0px;
+    }
+    .containerA {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    h2 {
+        text-align: center;
+    }
+    .copyright {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        margin: 1.5rem 1.5rem;
+        flex-wrap: wrap;
+    }
+    .copy {
+        text-align: center;
+    }
+}
+
